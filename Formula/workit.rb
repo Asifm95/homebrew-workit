@@ -1,17 +1,17 @@
 class Workit < Formula
   desc "CLI workflow manager for multi-project git worktrees"
   homepage "https://github.com/Asifm95/workit"
-  version "0.2.5"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Asifm95/workit/releases/download/v0.2.5/workit-darwin-arm64"
-      sha256 "f589d71eb76cf0c6799fcc1c0753e3d1f0a332d9f1e5a707e9d30de97f41c320"
+      url "https://github.com/Asifm95/workit/releases/download/v0.3.0/workit-darwin-arm64"
+      sha256 "4918e2339809a8112e6bc2285f2fbe71cfa88668f3800ffe7529cb77215956ac"
     end
     on_intel do
-      url "https://github.com/Asifm95/workit/releases/download/v0.2.5/workit-darwin-x64"
-      sha256 "edb326106e23d607f72d1d4fe0f6b26aaf81c7af0336ee31347cc25c8f6331f1"
+      url "https://github.com/Asifm95/workit/releases/download/v0.3.0/workit-darwin-x64"
+      sha256 "80f94cc333ae46554ad7f6047602957ff4882d3644a38c7027f50fcba65c0238"
     end
   end
 
